@@ -1,3 +1,7 @@
+/*Escribir un programa que mientras el usuario ingresa un caracter distinto del carácter ‘*’,
+muestre por pantalla si es carácter dígito, o si es carácter vocal minúscula.
+ */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Ejercicio_7 {
