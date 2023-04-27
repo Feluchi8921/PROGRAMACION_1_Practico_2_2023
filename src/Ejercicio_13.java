@@ -1,3 +1,8 @@
+/* Escribir un programa que mientras que el usuario ingrese un caracter letra minúscula,
+pida ingresar un número entero.
+Si el número ingresado está entre 1 y 5 inclusive deberá imprimir la tabla de multiplicar de dicho número.
+ */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Ejercicio_13 {
