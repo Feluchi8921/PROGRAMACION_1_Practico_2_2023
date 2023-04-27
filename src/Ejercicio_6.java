@@ -1,3 +1,8 @@
+/*Escribir un programa que mientras el usuario ingrese un número entero menor que 100 y mayor a 1,
+muestre por pantalla si el número es múltiplo de 2 y múltiplo de 3 simultáneamente.
+(¿Los valores mencionados en el enunciado deberían ser constantes?. De a poco habría que definirlos como constantes).
+ */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Ejercicio_6 {
