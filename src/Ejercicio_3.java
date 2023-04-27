@@ -1,3 +1,6 @@
+/* Escribir un programa que solicite el ingreso de un número mayor a 50,
+y lo muestre por pantalla en caso de ser múltiplo de 2 o 3.
+ */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Ejercicio_3 {
