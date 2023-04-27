@@ -1,3 +1,5 @@
+/*Escribir un programa que mientras que el usuario ingrese un número entero distinto de 0,
+ pida ingresar otro número entero y lo imprima.*/
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Ejercicio_8 {
