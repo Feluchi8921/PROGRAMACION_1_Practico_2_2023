@@ -1,3 +1,8 @@
+/*  Escribir un programa que mientras que el usuario ingrese un número entero entre 1 y 10 inclusive,
+ lleve la suma de los números ingresados.
+ Finalmente, cuando sale del ciclo muestre por pantalla el resultado de la suma. ¿En qué casos termina?
+ */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Ejercicio_10{
