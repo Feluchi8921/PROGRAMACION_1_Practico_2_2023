@@ -1,3 +1,7 @@
+/*Escribir un programa que mientras el usuario ingrese un caracter letra minúscula,
+acumule la cantidad de vocales que ingresó. Finalmente muestre por pantalla dicha cantidad.
+*/
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Ejercicio_11 {

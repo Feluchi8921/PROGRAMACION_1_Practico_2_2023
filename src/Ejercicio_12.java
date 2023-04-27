@@ -1,3 +1,7 @@
+/*Escribir un programa que mientras el usuario ingrese un carácter letra minúscula,
+se quede con la menor y la mayor letra ingresada. Finalmente muestre por pantalla dichas letras.
+ */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Ejercicio_12 {
