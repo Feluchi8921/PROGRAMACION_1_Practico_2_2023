@@ -9,8 +9,8 @@ public class Ejercicio_6 {
       public static void main (String [] args){
           int  numero;
           final int cte_1=1, cte_2=100, cte_3=2, cte_4=3;
+          BufferedReader entrada= new BufferedReader(new InputStreamReader(System.in));
           try{
-              BufferedReader entrada= new BufferedReader(new InputStreamReader(System.in));
               do{
                   System.out.println("Ingrese un numero");
                   numero=Integer.valueOf(entrada.readLine());

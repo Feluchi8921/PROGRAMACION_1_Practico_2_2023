@@ -9,8 +9,8 @@ import java.io.InputStreamReader;
 public class Ejercicio_2 {
     public static void main(String []args){
         int mes, anio;
+        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try{
-            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Ingrese un mes (el numero)");
             mes=Integer.valueOf(entrada.readLine());
             if(mes==11 || mes==4 || mes==6 || mes==9){

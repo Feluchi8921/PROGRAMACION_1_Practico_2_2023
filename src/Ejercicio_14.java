@@ -8,8 +8,8 @@ public class Ejercicio_14 {
     public static void main (String [] args) {
         int [] arrint = new int [MAX];
         int contador=0;
+        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try {
-            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
             for(int i=0; i<10;i++){
                 System.out.println("Ingrese un numero entero");
                 arrint[i]=Integer.valueOf(entrada.readLine());

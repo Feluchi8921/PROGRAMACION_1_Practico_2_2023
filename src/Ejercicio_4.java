@@ -7,8 +7,8 @@ public class Ejercicio_4 {
     public static void main(String[] args) {
         int numero;
         int digitos;
+        BufferedReader entrada= new BufferedReader(new InputStreamReader(System.in));
         try {
-            BufferedReader entrada= new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Ingrese un numero entre 0 y 999");
             numero=Integer.valueOf(entrada.readLine());
             digitos=Integer.toString(numero).length();

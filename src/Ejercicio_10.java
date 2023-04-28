@@ -8,8 +8,8 @@ import java.io.InputStreamReader;
 public class Ejercicio_10{
     public static void main(String[] args) {
         int numero, suma=0;
+        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try {
-            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
             do {
                 System.out.println("Ingrese un numero entero: ");
                 numero = Integer.valueOf(entrada.readLine());

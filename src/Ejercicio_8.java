@@ -5,8 +5,8 @@ import java.io.InputStreamReader;
 public class Ejercicio_8 {
     public static void main (String []args){
         int numero;
+        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try{
-            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
             do{ System.out.println("Ingrese un numero: ");
                 numero=Integer.valueOf(entrada.readLine());
                 if(numero!=0){

@@ -3,8 +3,8 @@ import java.io.BufferedReader;
 public class Ejercicio_1_b {
     public static void main (String [] args){
         int numero;
+        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try{
-            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Ingrese un numero:");
             numero=Integer.valueOf(entrada.readLine());
             if(numero>100){

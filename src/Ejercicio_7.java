@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 public class Ejercicio_7 {
     public static void main (String []args){
         char caracter;
+        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try {
-            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
             do {
                 System.out.println("Ingrese un caracter");
                 caracter = entrada.readLine().charAt(0);

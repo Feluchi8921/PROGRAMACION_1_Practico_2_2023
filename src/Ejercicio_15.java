@@ -8,8 +8,8 @@ public class Ejercicio_15 {
     public static void main (String []args){
         int numero, contador=0;
         double suma=0, promedio=0;
+        BufferedReader entrada= new BufferedReader(new InputStreamReader(System.in));
         try{
-            BufferedReader entrada= new BufferedReader(new InputStreamReader(System.in));
             do{
                 System.out.println("Ingrese un numero entero");
                 numero=Integer.valueOf(entrada.readLine());

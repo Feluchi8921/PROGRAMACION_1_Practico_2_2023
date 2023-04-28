@@ -3,8 +3,8 @@ import java.io.InputStreamReader;
 public class Ejercicio_1_e {
     public static void main(String [] args){
         int numero_1, numero_2, numero_3;
+        BufferedReader entrada= new BufferedReader(new InputStreamReader(System.in));
         try{
-            BufferedReader entrada= new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Ingrese un numero");
             numero_1=Integer.valueOf(entrada.readLine());
             System.out.println("Ingrese un numero");

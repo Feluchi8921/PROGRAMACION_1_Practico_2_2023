@@ -9,8 +9,8 @@ public class Ejercicio_13 {
     public static void main (String []args){
         char c;
         int numero;
+        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try{
-            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Ingrese un caracter: ");
             c=entrada.readLine().charAt(0);
             while(c>='a' && c<='z'){

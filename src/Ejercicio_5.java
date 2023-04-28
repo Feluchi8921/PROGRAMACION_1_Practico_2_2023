@@ -22,8 +22,8 @@ public class Ejercicio_5 {
         int hora, temperatura, clave_1, clave_2, centena_almacenada, centena;
         char letra_minuscula;
         final int clave_almacenada=234;
+        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try {
-            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Ingrese la hora");
             hora = Integer.valueOf(entrada.readLine());
             if (hora >= 0 && hora <= 5) {
